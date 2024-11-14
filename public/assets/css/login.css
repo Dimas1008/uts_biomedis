@@ -1,0 +1,71 @@
+body {
+    background-image: url('/assets/images/bg1.jpg'); /* Ganti dengan path gambar latar */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Tambahkan agar konten di tengah */
+}
+
+.login-container img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 100px; /* Sesuaikan ukuran logo */
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Agar label rata kiri */
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%; /* Pastikan input mengambil 100% dari kontainer */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px; /* Konsisten ukuran font */
+    box-sizing: border-box; /* Agar padding tidak memengaruhi ukuran total */
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px; /* Pastikan ukuran font konsisten */
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #555;
+}
